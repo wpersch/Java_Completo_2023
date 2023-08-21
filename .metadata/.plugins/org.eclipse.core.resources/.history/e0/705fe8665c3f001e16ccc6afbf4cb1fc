@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Positive or negative integer?");
+		int x = sc.nextInt();
+		
+		String res = (x > 0) ? "Positive" : "Negative";
+		
+		System.out.println(res);
+		
+		sc.close();
+
+	}
+
+}

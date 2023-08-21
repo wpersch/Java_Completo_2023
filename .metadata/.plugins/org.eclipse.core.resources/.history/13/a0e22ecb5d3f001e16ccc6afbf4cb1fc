@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Ex02 {
+	
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Are these integers numbers multiples?");
+		System.out.println("Type the first integer: ");
+		int x = sc.nextInt();
+		System.out.println("Type the second integer: ");
+		int y = sc.nextInt();
+		
+		String res = (x % y == 0 || y % x == 0) ? "They are multiples" : "They aren't multiples";
+		
+		System.out.println(res);
+	}
+
+}

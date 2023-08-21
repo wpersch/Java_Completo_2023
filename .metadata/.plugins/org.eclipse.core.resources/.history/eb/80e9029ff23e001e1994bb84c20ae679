@@ -1,0 +1,23 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("");
+		
+		int code = sc.nextInt();
+		int amount = sc.nextInt();
+		float price = sc.nextFloat();
+		
+		System.out.printf("Amount to pay: %.2f", (amount * price));
+		
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Ente two coordenates: ");
+		
+		double x= sc.nextDouble();
+		double y= sc.nextDouble();
+		
+		while (x != 0 && y != 0) {
+			if (x > 0) {
+				if (y > 0)
+					System.out.println("first");
+				else
+					System.out.println("Fourth");
+			} else
+				if (y > 0)
+					System.out.println("Second");
+				else
+					System.out.println("Third");
+			
+			System.out.print("Ente two coordenates: ");
+			
+			x = sc.nextDouble();
+			y= sc.nextDouble();
+			
+		}
+		
+		sc.close();
+
+	}
+
+}

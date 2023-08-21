@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class EX03 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("1. Alcohol\n2. Gasoline\n3. Diesel\n4. Exit\n");
+		
+		
+		sc.close();
+
+	}
+
+}
